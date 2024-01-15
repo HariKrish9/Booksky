@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="nav">
+        <h1>Booksky</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+        <h1>Atomic Habits</h1>
+        <h3>James Clear</h3>
+        <p>This breakthrough book from James Clear is the most comprehensive guide on how to change your habits and get 1% better every day.</p>
+        <button onclick="deletep(event)">Delete</button>
+        </div>
+      <button class="add" id="add-btn">+</button> 
+      <div class="popup-overlay"></div>
+       <div class="popup-box">
+            <h1>Add book</h1>
+        <form>
+            <input type="text" placeholder="Book title" id="book-title-input">
+            <input type="text" placeholder="Author name" id="book-author-input">
+            <textarea id="Description" placeholder="Description"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-book">Cancel</button>
+        </form>
+    </div>
+</body>
+<script src="javaspt.js"></script>
+</html>
