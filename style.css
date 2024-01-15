@@ -27,6 +27,7 @@ body{
     padding-top: 20px;
     border-radius: 10px;
     display: inline-block;
+    vertical-align: top;
 }
 .book-container h1{
     color: #597E52;
